@@ -1,5 +1,87 @@
 {
+	"cSpell.maxNumberOfProblems": 250,
+	"cSpell.minWordLength": 3,
+	"cSpell.enableFiletypes": [
+		"nushell"
+	],
 	"cSpell.words": [
+		"antd",
+		"coloredlogs",
+		"Deno",
+		"devcontainer",
+		"dotenv",
+		"gcloud",
+		"llm",
+		"pydantic",
+		"shellcheck",
 		"Simcha"
-	]
+	],
+	"editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+	"editor.detectIndentation": false,
+	"editor.formatOnPaste": true,
+	"editor.formatOnSave": true,
+	"editor.formatOnType": true,
+	"editor.formatOnSaveMode": "file",
+	"editor.indentSize": "tabSize",
+	"editor.insertSpaces": true,
+	"editor.tabSize": 4,
+	"editor.wordWrapColumn": 120,
+	"files.autoSave": "onFocusChange",
+	"files.trimTrailingWhitespace": true,
+	"python.analysis.autoImportCompletions": true,
+	"python.analysis.autoSearchPaths": true,
+	"python.analysis.extraPaths": [],
+	"python.analysis.typeCheckingMode": "basic",
+	"python.autoComplete.extraPaths": [],
+	"redhat.telemetry.enabled": false,
+	"vs-code-prettier-eslint.prettierLast": true,
+	"workbench.editor.closeOnFileDelete": true,
+	"workbench.editor.enablePreview": false,
+	"yaml.format.enable": true,
+	"yaml.schemas": {
+		"https://json.schemastore.org/github-workflow.json": [
+			"*.github/workflows/*.yaml",
+			"*.github/workflows/*.yml"
+		],
+		"https://json.schemastore.org/github-action.json": [
+			"action.yaml",
+			"action.yml"
+		]
+	},
+	"[dockercompose]": {
+		"editor.autoIndent": "full",
+		"editor.defaultFormatter": "redhat.vscode-yaml",
+		"editor.formatOnSave": true,
+		"editor.formatOnType": true,
+		"editor.insertSpaces": false
+	},
+	"[github-actions-workflow]": {
+		"editor.autoIndent": "full",
+		"editor.defaultFormatter": "redhat.vscode-yaml",
+		"editor.formatOnPaste": true,
+		"editor.formatOnSave": true,
+		"editor.formatOnType": true,
+		"editor.insertSpaces": true
+	},
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[python]": {
+		"editor.defaultFormatter": "ms-python.autopep8"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+	},
+	"[yaml]": {
+		"editor.autoIndent": "full",
+		"editor.defaultFormatter": "redhat.vscode-yaml",
+		"editor.formatOnPaste": true,
+		"editor.formatOnSave": true,
+		"editor.formatOnType": true,
+		"editor.insertSpaces": true,
+		"editor.tabSize": 2
+	}
 }

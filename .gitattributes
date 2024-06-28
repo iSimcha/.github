@@ -1,0 +1,4 @@
+# Tell GitHub to treat `.vscode/*` files as JSONC files.
+# https://github.com/microsoft/vscode/issues/79744
+.vscode/*.json linguist-language=jsonc
+.devcontainer/*.json linguist-language=jsonc

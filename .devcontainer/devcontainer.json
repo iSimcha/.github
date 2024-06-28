@@ -1,0 +1,59 @@
+{
+	"name": "Default dev container",
+	"image": "mcr.microsoft.com/devcontainers/python:3.10",
+	"hostRequirements": {
+		// Default is 2 cores/8 GB memory
+		"cpus": 2,
+		"memory": "8gb"
+	},
+	"features": {
+		// Enable SSH for JetBrains Gateway
+		"ghcr.io/devcontainers/features/sshd:1": {},
+		"ghcr.io/devcontainers/features/docker-in-docker:2": {},
+		"ghcr.io/devcontainers-contrib/features/firebase-cli:2": {},
+		"ghcr.io/dhoeric/features/google-cloud-cli:1": {}
+	},
+	"waitFor": "onCreateCommand",
+	"updateContentCommand": {
+		"install-utils": "${PWD}/.devcontainer/install-utils.sh",
+		// Modify the environment to provide better developer experience.
+		"modify-environment": "${PWD}/.devcontainer/modify-environment.sh",
+		"update-system": "sudo apt-get -qq update && sudo apt-get -qq install --no-install-recommends -y vim"
+	},
+	"postCreateCommand": "",
+	"customizations": {
+		"codespaces": {
+			"openFiles": [
+				"README.md"
+			]
+		},
+		"vscode": {
+			"extensions": [
+				// Common extensions
+				"EditorConfig.EditorConfig",
+                "github.vscode-github-actions",
+				"redhat.vscode-yaml",
+                "streetsidesoftware.code-spell-checker",
+				"streetsidesoftware.code-spell-checker-medical-terms",
+				"TheNuProjectContributors.vscode-nushell-lang",
+				"timonwong.shellcheck",
+                "VisualStudioExptTeam.vscodeintellicode",
+                "VisualStudioExptTeam.intellicode-api-usage-examples",
+                "ms-vsliveshare.vsliveshare",
+				"42Crunch.vscode-openapi",
+				// Extensions for Python development
+				"ms-python.autopep8",
+				"ms-python.pylint",
+				"ms-python.python",
+				"ms-python.vscode-pylance",
+				"ms-toolsai.jupyter",
+				"njpwerner.autodocstring"
+			],
+			// VS Code settings are in .vscode/settings.json
+			//"settings": {},
+			"shellcheck.customArgs": [
+				"-x"
+			]
+		}
+	}
+}
