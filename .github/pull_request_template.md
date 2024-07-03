@@ -24,6 +24,6 @@ What changes are you requesting? (Don't forget to delete this line!)
 ## ✨ Added to documentation?
 
 - [ ] 📜 README.md
-- [ ] 🏷️ Code
+- [ ] 🏷️ Code (docstrings, comments)
 - [ ] 📓 Development shared drive (Google Drive)
 - [ ] 🙅 No documentation needed
