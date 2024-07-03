@@ -7,23 +7,23 @@
 - [ ] 🧑‍💻 Code Refactor
 - [ ] 🔥 Performance Improvements
 - [ ] ✅ Test
-- [ ] 🤖 Build
 - [ ] 🔁 CI
 - [ ] 📦 Chore (Release)
 - [ ] ⏩ Revert
 
 ## 🛠 Description of the change
 
-What changes are you requesting?
+What changes are you requesting? (Don't forget to delete this line!)
 
 ## 🧪 Added tests?
 
-- [ ] 👍 yes
-- [ ] 🙅 no, because they aren't needed
-- [ ] 🙋 no, because I need help
+- [ ] 👍 Yes
+- [ ] 🙅 No, because they aren't needed
+- [ ] 🙋 No, because I need help
 
 ## ✨ Added to documentation?
 
 - [ ] 📜 README.md
-- [ ] 📓 drive.google.com
-- [ ] 🙅 no documentation needed
+- [ ] 🏷️ Code
+- [ ] 📓 Development shared drive (Google Drive)
+- [ ] 🙅 No documentation needed
